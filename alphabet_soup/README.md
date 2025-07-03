@@ -37,12 +37,12 @@ A reusable, buildable Python package to solve word-search puzzles.
        
        alphabet-soup --version
 
-#If alphabet-soup isn’t on your $PATH, you can either:
-for  macOS/Linux
-    echo 'export PATH="$PWD/.myenv/bin:$PATH"' >> ~/.bashrc
+****If alphabet-soup isn’t on your $PATH, you can either:
+
+    echo 'export PATH="$PWD/.myenv/bin:$PATH"' >> ~/.bashrc   ##for  macOS/Linux
     source ~/.bashrc
-for windows Powershel
-  add .\.venv\Scripts\Activate.ps1
+
+  add .\.venv\Scripts\Activate.ps1                           ##for windows Powershell
 ```   
 
 ### 4. Usage
