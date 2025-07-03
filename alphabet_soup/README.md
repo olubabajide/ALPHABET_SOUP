@@ -34,7 +34,7 @@ Editable install (for development):
 
 Regular install:
     pip install .
-#Check if installed and what version installed
+**Check if installed and what version installed
     which alphabet-soup
     alphabet-soup --version
 
