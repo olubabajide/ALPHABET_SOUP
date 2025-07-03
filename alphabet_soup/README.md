@@ -17,8 +17,6 @@ A reusable, buildable Python package to solve word-search puzzles.
 ## Quickstart
 
 ### 1. Clone & enter the project
-
-
 git clone https://your.repo.url/alphabet_soup.git
 cd alphabet_soup
 
