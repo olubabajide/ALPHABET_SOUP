@@ -17,10 +17,10 @@ A reusable, buildable Python package to solve word-search puzzles.
 ## Quickstart
 
 ### 1. Clone & enter the project Create 
-```bash
+```
 git clone https://your.repo.url/alphabet_soup.git
 cd alphabet_soup
-```
+
 ### 2. Create & activate a virtual environment
 ```
     python3 -m venv .myenv
