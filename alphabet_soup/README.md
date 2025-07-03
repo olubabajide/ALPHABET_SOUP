@@ -31,10 +31,9 @@ A reusable, buildable Python package to solve word-search puzzles.
     pip install -e .     #Editable install (for development)
 
     pip install .       #Regular install
-    
-**Check if installed and what version installed
-    which alphabet-soup
-    alphabet-soup --version
+------   
+   which alphabet-soup
+   alphabet-soup --version
 
 #If alphabet-soup isn’t on your $PATH, you can either:
 for  macOS/Linux
