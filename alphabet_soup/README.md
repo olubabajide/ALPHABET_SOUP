@@ -27,7 +27,18 @@ for macOS/Linux
 for Windows PowerShell
     .\.myenv\Scripts\Activate.ps1
 
-## Installation
+### 3. Install the package
+
+Editable install (for development):
+pip install -e .
+
+Regular install:
+pip install .
+## If alphabet-soup isn’t on your $PATH, you can either:
+
+# macOS/Linux
+echo 'export PATH="$PWD/.myenv/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
 
 
 pip install .
