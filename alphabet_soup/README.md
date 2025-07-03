@@ -26,7 +26,7 @@ A reusable, buildable Python package to solve word-search puzzles.
     python3 -m venv .myenv
     source .myenv/bin/activate          # macOS/Linux
     .\.myenv\Scripts\Activate.ps1       #for Windows PowerShell
-```
+
 ### 3. Install the package
 
 Editable install (for development):
@@ -44,7 +44,7 @@ for  macOS/Linux
     source ~/.bashrc
 for windows Powershel
   add .\.venv\Scripts\Activate.ps1
-   
+```   
 
 ### 4. Usage
     alphabet-soup path/to/puzzle.txt
