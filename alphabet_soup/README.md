@@ -24,9 +24,8 @@ A reusable, buildable Python package to solve word-search puzzles.
 
 ### 2. Create & activate a virtual environment
     python3 -m venv .myenv
-    source .myenv/bin/activate
-for Windows PowerShell
-    .\.myenv\Scripts\Activate.ps1
+    source .myenv/bin/activate          # macOS/Linux
+    .\.myenv\Scripts\Activate.ps1       #for Windows PowerShell
 ```
 ### 3. Install the package
 
