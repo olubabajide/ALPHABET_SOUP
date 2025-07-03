@@ -56,5 +56,17 @@ A reusable, buildable Python package to solve word-search puzzles.
 - **tests/**: Unit tests
 - **puzzle_input.txt
 
+alphabet_soup/
+├── src/
+│   └── alphabet_soup/
+│       ├── core.py          # load_puzzle & find_word logic
+│       ├── cli.py           # console entry-point + --version
+│      
+├── tests/
+│   └── test_core.py         # pytest unit tests
+├── setup.py                 # setuptools config 
+├── puzzle_input.txt         # input file
+└── README.md                # this file
+
 
 
