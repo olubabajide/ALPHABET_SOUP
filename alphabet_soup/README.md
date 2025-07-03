@@ -41,7 +41,7 @@ A reusable, buildable Python package to solve word-search puzzles.
 
     echo 'export PATH="$PWD/.myenv/bin:$PATH"' >> ~/.bashrc   ##for  macOS/Linux
     source ~/.bashrc                                           ##then reload your rc (or just open a new terminal)
-    add .\.venv\Scripts\Activate.ps1                           ##for windows Powershell
+    add .\.myenv\Scripts\Activate.ps1                           ##for windows Powershell
    
 
 ### 4. Usage
