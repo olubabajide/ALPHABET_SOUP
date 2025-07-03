@@ -56,7 +56,4 @@ A reusable, buildable Python package to solve word-search puzzles.
 - **tests/**: Unit tests
 
 ```bash
-pytest
-```
-```
-``` 
+
