@@ -23,9 +23,9 @@ A reusable, buildable Python package to solve word-search puzzles.
     cd alphabet_soup
 
 ### 2. Create & activate a virtual environment. This isolates your Python environment so you can safely install packages
-    python3 -m venv .myenv
-    source .myenv/bin/activate          # Activate your venv from the project root (where setup.py lives) for macOS/Linux
-    .\.myenv\Scripts\Activate.ps1       #for Windows PowerShell
+    a. python3 -m venv .myenv
+    b. source .myenv/bin/activate          # Activate your venv from the project root (where setup.py lives) for macOS/Linux
+    c. .\.myenv\Scripts\Activate.ps1       #for Windows PowerShell
 
 ### 3. Install the package
     pip install -e .     #Editable install (for development)
