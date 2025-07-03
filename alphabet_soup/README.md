@@ -6,6 +6,22 @@
 
 A reusable, buildable Python package to solve word-search puzzles.
 
+## Features
+
+- Load puzzles from simple text files (e.g. `3x3`, grid lines, then word list)
+- Find words in all eight directions (horizontal, vertical, diagonal, forwards & backwards)
+- Command-line interface with `--version` flag
+- Fully tested core logic
+
+---
+## Quickstart
+
+### 1. Clone & enter the project
+
+```bash
+git clone https://your.repo.url/alphabet_soup.git
+cd alphabet_soup
+
 ## Installation
 
 ```bash
