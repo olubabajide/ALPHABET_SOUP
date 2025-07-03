@@ -54,6 +54,7 @@ A reusable, buildable Python package to solve word-search puzzles.
 - **src/alphabet_soup/core.py**: Puzzle loading and search algorithms
 - **src/alphabet_soup/cli.py**: Entry point and argument parsing
 - **tests/**: Unit tests
+- **puzzle_input.txt
 
 
 
