@@ -24,11 +24,11 @@ cd alphabet_soup
 ### 2. Create & activate a virtual environment
 ```bash
     python3 -m venv .myenv
-#for macOS/Linux
+for macOS/Linux
     source .myenv/bin/activate
-*for Windows PowerShell
+for Windows PowerShell
     .\.myenv\Scripts\Activate.ps1
-
+```
 ### 3. Install the package
 
 Editable install (for development):
