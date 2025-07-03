@@ -38,7 +38,7 @@ Regular install:
     which alphabet-soup
     alphabet-soup --version
 
-## If alphabet-soup isn’t on your $PATH, you can either:
+#If alphabet-soup isn’t on your $PATH, you can either:
 for  macOS/Linux
     echo 'export PATH="$PWD/.myenv/bin:$PATH"' >> ~/.bashrc
     source ~/.bashrc
