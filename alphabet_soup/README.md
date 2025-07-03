@@ -30,20 +30,24 @@ for Windows PowerShell
 ### 3. Install the package
 
 Editable install (for development):
-pip install -e .
+    pip install -e .
 
 Regular install:
-pip install .
+    pip install .
+#Check if installed and what version installed
+    which alphabet-soup
+    alphabet-soup --version
 
 ## If alphabet-soup isn’t on your $PATH, you can either:
 for  macOS/Linux
     echo 'export PATH="$PWD/.myenv/bin:$PATH"' >> ~/.bashrc
     source ~/.bashrc
-for windows
-   add .\.myenv\Scripts to your PATH via System Properties
+for windows Powershel
+  add .\.venv\Scripts\Activate.ps1
+   
 
 ### 4. Usage
-alphabet-soup path/to/puzzle.txt
+    alphabet-soup path/to/puzzle.txt
 ##Or bypass the wrapper:
     python -m alphabet_soup.cli path/to/puzzle.txt
 
