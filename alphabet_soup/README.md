@@ -20,6 +20,13 @@ A reusable, buildable Python package to solve word-search puzzles.
 git clone https://your.repo.url/alphabet_soup.git
 cd alphabet_soup
 
+### 2. Create & activate a virtual environment
+python3 -m venv .myenv
+# macOS/Linux
+source .myenv/bin/activate
+# Windows PowerShell
+.\.myenv\Scripts\Activate.ps1
+
 ## Installation
 
 
