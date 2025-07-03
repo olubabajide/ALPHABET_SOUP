@@ -22,7 +22,6 @@ git clone https://your.repo.url/alphabet_soup.git
 cd alphabet_soup
 
 ### 2. Create & activate a virtual environment
-```
     python3 -m venv .myenv
 for macOS/Linux
     source .myenv/bin/activate
