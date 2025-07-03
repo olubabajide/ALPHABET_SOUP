@@ -46,7 +46,7 @@ A reusable, buildable Python package to solve word-search puzzles.
 
 ### 4. Usage
     alphabet-soup path/to/puzzle.txt
-    python -m alphabet_soup.cli path/to/puzzle.txt ##Or bypass the wrapper
+    python -m alphabet_soup.cli path/to/puzzle.txt    ##to bypass the wrapper
 
 ## Usage
 
