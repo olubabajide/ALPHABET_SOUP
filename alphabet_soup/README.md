@@ -28,12 +28,10 @@ A reusable, buildable Python package to solve word-search puzzles.
     .\.myenv\Scripts\Activate.ps1       #for Windows PowerShell
 
 ### 3. Install the package
+    pip install -e .     #Editable install (for development)
 
-Editable install (for development):
-    pip install -e .
-
-Regular install:
-    pip install .
+    pip install .       #Regular install
+    
 **Check if installed and what version installed
     which alphabet-soup
     alphabet-soup --version
