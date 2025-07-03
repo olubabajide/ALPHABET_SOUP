@@ -18,9 +18,9 @@ A reusable, buildable Python package to solve word-search puzzles.
 ```
 ### 1. Clone & enter the project Create 
 
-    git clone https://your.repo.url/alphabet_soup.git
+    a. git clone https://your.repo.url/alphabet_soup.git
 
-    cd alphabet_soup
+    b. cd alphabet_soup
 
 ### 2. Create & activate a virtual environment. This isolates your Python environment so you can safely install packages
     a. python3 -m venv .myenv
@@ -28,20 +28,20 @@ A reusable, buildable Python package to solve word-search puzzles.
     c. .\.myenv\Scripts\Activate.ps1       #for Windows PowerShell
 
 ### 3. Install the package
-    pip install -e .     #Editable install (for development)
+    a. pip install -e .     #Editable install (for development)
 
-    pip install .       #Regular install
+    b. pip install .       #Regular install
   ****Check if alphabet-soup was installed and what version installed
   
-       which alphabet-soup
+    c. which alphabet-soup
        
-       alphabet-soup --version
+    d. alphabet-soup --version
 
 ****If alphabet-soup isn’t on your $PATH, you can either:
 
-    echo 'export PATH="$PWD/.myenv/bin:$PATH"' >> ~/.bashrc   ##for  macOS/Linux
-    source ~/.bashrc                                           ##then reload your rc (or just open a new terminal)
-    add .\.myenv\Scripts\Activate.ps1                           ##for windows Powershell
+    e. echo 'export PATH="$PWD/.myenv/bin:$PATH"' >> ~/.bashrc   ##for  macOS/Linux
+    f. source ~/.bashrc                                           ##then reload your rc (or just open a new terminal)
+    g. add .\.myenv\Scripts\Activate.ps1                           ##for windows Powershell
    
 
 ### 4. Usage
